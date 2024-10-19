@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolySoundex", "PolySoundex.csproj", "{1E9F3D36-121E-459C-BEA4-078D8E682A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "..\..\flux-example\WebApplication1\WebApplication1.csproj", "{614EE746-DD66-46CC-9564-F489EF773D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolySoundex.Tests", "..\PolySoundex.Tests\PolySoundex.Tests\PolySoundex.Tests.csproj", "{08678755-1CBF-4722-92E4-D1D80D9C1868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9F3D36-121E-459C-BEA4-078D8E682A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9F3D36-121E-459C-BEA4-078D8E682A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9F3D36-121E-459C-BEA4-078D8E682A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9F3D36-121E-459C-BEA4-078D8E682A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614EE746-DD66-46CC-9564-F489EF773D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614EE746-DD66-46CC-9564-F489EF773D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614EE746-DD66-46CC-9564-F489EF773D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614EE746-DD66-46CC-9564-F489EF773D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08678755-1CBF-4722-92E4-D1D80D9C1868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08678755-1CBF-4722-92E4-D1D80D9C1868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08678755-1CBF-4722-92E4-D1D80D9C1868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08678755-1CBF-4722-92E4-D1D80D9C1868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
