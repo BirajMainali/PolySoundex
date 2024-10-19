@@ -18,7 +18,7 @@
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Product>PolySoundex</Product>
         <PackageId>PolySoundex</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 

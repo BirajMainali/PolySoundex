@@ -20,7 +20,7 @@ namespace PolySoundex.Services
             if (string.IsNullOrEmpty(input)) return input;
             if (input.All(char.IsDigit)) return input;
             var config = _configs.Find(c => c.LanguageIdentifierRegex.IsMatch(input));
-            if (config == null) throw new PolySoundexException("No configuration found for the input language.");
+            if (config == null) return input;
             if(config.Requirements == null) throw new PolySoundexException("Requirements must be provided in the configuration.");
             return GetSoundex(input, config.LanguageIdentifierRegex, config.Requirements);
         }
