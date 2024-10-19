@@ -35,7 +35,7 @@ builder.Services.AddPolySoundex(config =>
             { 5, new[] { 'M', 'N' } },
             { 6, new[] { 'R' } }
         },
-        LanguageIdentifierRegex = new Regex("^[A-Za-z]+$") // Regex for English alphabet
+        LanguageIdentifierRegex = new Regex("^[A-Za-z\\s]+$") // Regex for English alphabet
     });
 
     // Nepali Soundex (Devanagari script) Configuration
@@ -50,7 +50,7 @@ builder.Services.AddPolySoundex(config =>
             { 5, new[] { 'प', 'फ', 'ब', 'भ', 'म' } },
             { 6, new[] { 'य', 'र', 'ल', 'व' } }
         },
-        LanguageIdentifierRegex = new Regex("^[\u0900-\u097F]+$") // Regex for Devanagari (Nepali) script
+        LanguageIdentifierRegex = new Regex("^[\u0900-\u097F\\s]+$") // Regex for Devanagari (Nepali) script
     });
 });
 ```
