@@ -3,6 +3,23 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <Authors>Biraj Mainali</Authors>
+        <Description>A multi-language Soundex library for .NET that enables phonetic searching and indexing across various languages, including English and Nepali and any configured language</Description>
+        <Copyright>MIT</Copyright>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/BirajMainali/PolySoundex.git</RepositoryUrl>
+        <PackageTags>soundex, phonetic search, multi-language, English, Nepali and any other linguistic, name matching, text processing, search optimization, phonetics, fuzzy matching, internationalization, software localization, character encoding
+        </PackageTags>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Product>PolySoundex</Product>
+        <PackageId>PolySoundex</PackageId>
+        <Version>1.0.0</Version>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
