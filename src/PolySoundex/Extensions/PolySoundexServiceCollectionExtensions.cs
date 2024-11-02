@@ -20,7 +20,7 @@ namespace PolySoundex.Extensions
             var builder = new PolySoundexBuilder();
             builder.UsePolySoundex(configure);
             var polySoundex = builder.Build();
-            services.AddSingleton<IPolySoundex>(polySoundex);
+            services.AddSingleton<IPolySoundexService>(polySoundex);
             return services;
         }
     }

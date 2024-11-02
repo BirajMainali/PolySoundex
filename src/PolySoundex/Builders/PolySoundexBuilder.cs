@@ -6,7 +6,7 @@ namespace PolySoundex.Builders
 {
     public class PolySoundexBuilder
     {
-        private readonly List<PolySoundexConfig> _configs = new List<PolySoundexConfig>();
+        private readonly List<PolySoundexConfig> _configs = new();
 
         public PolySoundexBuilder UsePolySoundex(Action<List<PolySoundexConfig>> configure)
         {
@@ -14,9 +14,9 @@ namespace PolySoundex.Builders
             return this;
         }
 
-        public Services.PolySoundex Build()
+        public Services.PolySoundexService Build()
         {
-            return new Services.PolySoundex(_configs);
+            return new Services.PolySoundexService(_configs);
         }
     }
 }
